@@ -1,0 +1,42 @@
+body {
+	background-color: rgb(216, 216, 216);
+}
+
+h1 {
+	position: relative;
+	top: 45px;
+	color: rgb(83, 88, 80);
+	height: 25px;
+}
+
+header {
+	height: 150px;
+	background-color: rgb(225, 243, 205);
+}
+
+.result-container {
+	height: 200px;
+	background-color: white;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.result {
+	display: flex;
+	align-items: center;
+}
+
+#inputs {
+	border-radius: 5px;
+}
+
+.messages {
+	position: relative;
+	top: 15px;
+}
+.messages .error {
+	margin: 0;
+	background-color: rgb(255, 152, 152);
+	color: rgb(83, 88, 80);
+}
